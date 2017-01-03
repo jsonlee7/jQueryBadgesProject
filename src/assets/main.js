@@ -1,6 +1,6 @@
 $(function() {
   $.ajax({
-    url:'https://codeschool.pluralsight.com/users/2136740.json',
+    url:'https://www.codeschool.com/users/sergiocruz.json',
     dataType: 'jsonp',
     success: function(response){
       var badges = $('#badges');
