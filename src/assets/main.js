@@ -1,7 +1,6 @@
 $(function() {
-var url = 'https://codeschool.pluralsight.com/users/2136740.json';
   $.ajax({
-    url:url,
+    url:'https://codeschool.pluralsight.com/users/2136740.json',
     dataType: 'jsonp',
     success: function(response){
       var badges = $('#badges');
